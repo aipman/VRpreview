@@ -8,12 +8,17 @@
   </head>
   <body>
     <a-scene background="color: #FAFAFA">
+      
+      <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+
+      <a-cylinder id="ground" src="https://github.com/aipman/VRpreview/tree/master/docs/沙滩地面2.jpg" radius="32" height="0.1"></a-cylinder><!--地板-->
+    
       <a-entity id="rig" position="0 1 0">
         <a-camera id="camera"></a-camera>
       </a-entity>
       <a-box position="-0.08 0.92 -3.16"  color="#19c2e2" shadow></a-box>
 
-      <a-plane position="0 0 -4.00" rotation="-90.00 0 0" width="9.32" height="8.36" color="rgb(213, 226, 60)" shadow></a-plane>
+      <a-plane position="0 0.36 -4.00" rotation="-90.00 0 0" width="9.32" height="8.36" color="rgb(213, 226, 60)" shadow></a-plane>
       
     </a-scene>
   </body>
