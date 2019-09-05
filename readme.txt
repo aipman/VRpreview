@@ -3,4 +3,4 @@
 https://aipman.github.io/VRpreview/
 https://glitch.com/edit/#!/aframe?path=index.html:15:14 
 在线编辑
-![image](https://github.com/aipman/VRpreview/master/docs/maotouying.jpg)
+![image](https://github.com/aipman/VRpreview/blob/master/docs/maotouying.jpg)
