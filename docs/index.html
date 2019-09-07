@@ -15,6 +15,20 @@
         <img id="sky" src="sky.png">
       </a-assets-->
       <a-sky color="#4bb4eb"></a-sky><!--天空-->
+      
+      
+      <a-assets>
+        <img id="my-image" src="https://raw.githubusercontent.com/aipman/VRpreview/master/docs/maotouying.jpg">
+      </a-assets>
+
+      <!-- Using the asset management system. -->
+      <a-image src="#my-image" position="-1.12 3.50 -2.06" width="2.84" height="1.40"></a-image>
+
+      <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
+      <a-image src="docs/maotouying.jpg" position="1.06 1.32 -2.56"></a-image>
+      
+      
+      
       <a-entity id="rig" position="0 1 0">
         <a-camera id="camera"></a-camera>
       </a-entity><!--相机-->
