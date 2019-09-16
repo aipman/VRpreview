@@ -12,36 +12,26 @@
     <a-scene background="color: #ffffff">
       <a-cylinder id="ground" src="https://raw.githubusercontent.com/aipman/VRpreview/master/docs/st.jpg" radius="32" height="0.1"></a-cylinder><!--地面-->
       <!--a-assets>
-        <img id="sky" src="sky.png">
-      </a-assets-->
+<img id="sky" src="sky.png">
+</a-assets-->
       <a-sky color="#4bb4eb"></a-sky><!--天空-->
-      
-      
       <a-assets>
         <img id="my-image" src="https://raw.githubusercontent.com/aipman/VRpreview/master/docs/maotouying.jpg">
       </a-assets>
-
       <!-- Using the asset management system. -->
       <a-image src="#my-image" position="-1.12 3.50 -2.06" width="2.84" height="1.40"></a-image>
-
       <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
       <a-image src="maotouying.jpg" position="1.06 1.32 -2.56"></a-image>
-      
-      
-      
       <a-entity id="rig" position="0 1 0">
-<a-camera id="camera" wasd-controls="fly:true"></a-camera>
+        <a-camera id="camera" wasd-controls="fly:true"></a-camera>
       </a-entity><!--相机-->
-      
-      
       <!--a-entity position="" camera="active:false;userHeight:1.6" wasd-controls="fly:true" aframe-injected="" data-aframe-inspector="default-camera"></a-entity-->
-      
-      
-      
-      <a-text position="1.16 2.58 -3.74" value="DeDaoApp" geometry="primitive:plane"></a-text>
-      <a-box position="-0.08 1.40 -3.20" Fox="4.00" width="0.44" height="3.60" color="#19c2e2" shadow></a-box>
-      <a-plane position="0 0.36 -4.00" rotation="-90.00 0 0" width="9.32" height="8.36" color="rgb(213, 226, 60)" shadow></a-plane>
-      
+      <a-entity id="rings-group-2" position="-0.44 1.86 1.44" scale="0.5 0.5 0.50">
+        <a-text position="0.48 0.98 -5.10" value="DeDaoApp" color="rgb(227, 26, 26)"></a-text>
+        <a-box position="1 1 -5.2" Fox="0.36" width="2.16" height="1.60" depth="0.14" color="rgb(73, 227, 26)" shadow></a-box>
+      </a-entity>
+      <a-box position="-2.22 1.88 -2.14" Fox="0.36" width="2.16" height="1.60" depth="0.14"  color="rgb(96, 95, 111)" shadow></a-box>
+      <a-plane position="0 0.36 -4.00" rotation="-90.00 0 0" width="9.32" height="8.36" color="rgb(226, 60, 73)" shadow></a-plane>
     </a-scene>
   </body>
 </html>
